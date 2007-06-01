@@ -57,8 +57,8 @@ autoconf
 %install
 %makeinstall
 
-%post -n %libname -p /sbin/ldconfig
-%postun -n %libname -p /sbin/ldconfig
+#%post -n %libname -p /sbin/ldconfig
+#%postun -n %libname -p /sbin/ldconfig
 
 %files
 %defattr(-,root,root)
