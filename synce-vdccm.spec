@@ -16,7 +16,6 @@ Group: System/Libraries
 Source: %{name}-%{version}.tar.bz2
 Patch0: vdccm-dont-chown.patch
 URL: http://synce.sourceforge.net/
-Buildroot: %{_tmppath}/%name-root
 BuildRequires: libsynce-devel = %{version}
 BuildRequires: hal-devel
 Obsoletes: %libname
