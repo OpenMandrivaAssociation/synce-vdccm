@@ -1,10 +1,9 @@
 %define name     synce-vdccm
 %define shortname vdccm
-%define release  %mkrel 2
-%define version  0.10.0
+%define release  %mkrel 1
+%define version  0.10.1
 
 %define major 0
-
 %define libname %mklibname %shortname %major
 
 Summary: SynCE: Communication application
@@ -13,10 +12,10 @@ Version: %{version}
 Release: %{release}
 License: MIT
 Group: System/Libraries
-Source: %{name}-%{version}.tar.bz2
+Source: http://kent.dl.sourceforge.net/sourceforge/synce/%{shortname}-%{version}.tar.gz
 Patch0: vdccm-dont-chown.patch
 URL: http://synce.sourceforge.net/
-BuildRequires: libsynce-devel = %{version}
+BuildRequires: libsynce-devel >= 0.10.0
 BuildRequires: hal-devel
 Obsoletes: %libname
 Obsoletes: %libname-devel
