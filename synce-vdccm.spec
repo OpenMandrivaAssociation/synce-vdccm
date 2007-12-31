@@ -16,7 +16,7 @@ Source: http://kent.dl.sourceforge.net/sourceforge/synce/%{shortname}-%{version}
 Patch0: vdccm-dont-chown.patch
 URL: http://synce.sourceforge.net/
 BuildRequires: libsynce-devel >= 0.10.0
-BuildRequires: hal-devel
+#BuildRequires: hal-devel
 Obsoletes: %libname
 Obsoletes: %libname-devel
 Conflicts: synce-kde < 0.9.1-2
