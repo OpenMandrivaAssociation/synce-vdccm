@@ -12,6 +12,7 @@ Version: %{version}
 Release: %{release}
 License: MIT
 Group: System/Libraries
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: http://kent.dl.sourceforge.net/sourceforge/synce/%{shortname}-%{version}.tar.gz
 Patch0: vdccm-dont-chown.patch
 URL: http://synce.sourceforge.net/
