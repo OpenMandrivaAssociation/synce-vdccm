@@ -1,6 +1,6 @@
 %define name     synce-vdccm
 %define shortname vdccm
-%define release  %mkrel 1
+%define release  %mkrel 3
 %define version  0.10.1
 
 %define major 0
